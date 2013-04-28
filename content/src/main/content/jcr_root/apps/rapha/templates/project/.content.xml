@@ -2,9 +2,10 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:description="Create a project page"
     jcr:primaryType="cq:Template"
-    jcr:title="project"
+    jcr:title="Project Page"
+    allowedPaths="[/content(/.*)?]"
     ranking="{Long}100">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="apps/rapha/components/page/base"/>
+        sling:resourceType="rapha/components/page/base"/>
 </jcr:root>
