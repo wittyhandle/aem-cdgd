@@ -2,10 +2,12 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:doctype="html_5"
         cq:lastModified="{Date}2013-05-01T19:11:05.595-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/libs/wcm/core/templates/designpage"
         jcr:primaryType="cq:PageContent"
         jcr:title="CDGD"
         sling:resourceType="wcm/core/components/designer"/>
+    <clientlibs/>
 </jcr:root>

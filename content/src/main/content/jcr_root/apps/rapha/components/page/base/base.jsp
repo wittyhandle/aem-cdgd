@@ -10,4 +10,6 @@
 %><%
 %>
 
-Base page component.
+<cq:includeClientLib categories="cdgd-main"/>
+
+<h1>Base page component?</h1>
