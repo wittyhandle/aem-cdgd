@@ -1,1 +1,30 @@
-h1 { color: green; }
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	/*font-family: 'NHaasGroteskTXStd-55Rg';*/
+	font-weight: normal;
+	font-style: normal;
+	color: #a0a0a0;
+}
+
+a, a:active, a:visited {
+	color: #a0a0a0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+#menu .on, #left-menu .on {
+	color: #000;
+}
+
+img {
+	max-width: 100%;
+}
+
+#container {
+	margin: 10px auto;
+	max-width: 1145px;
+	padding: 0 20px;
+}
