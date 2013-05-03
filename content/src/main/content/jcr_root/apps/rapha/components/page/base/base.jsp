@@ -2,14 +2,12 @@
 
   base component.
 
-  
 
---%><%
-%><%@include file="/libs/foundation/global.jsp"%><%
-%><%@page session="false" %><%
-%><%
-%>
 
-<cq:includeClientLib categories="cdgd-main"/>
+--%>
+<%@include file="/libs/foundation/global.jsp"%>
+<%@page session="false" %>
 
-<h1>Base page component?</h1>
+<cq:include script="header.jsp"/>
+<cq:include script="body.jsp"/>
+<cq:include script="footer.jsp"/>
