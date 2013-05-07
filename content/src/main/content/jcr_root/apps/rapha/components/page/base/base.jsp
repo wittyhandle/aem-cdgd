@@ -18,17 +18,20 @@
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <cq:includeClientLib categories="cq.jquery"/>
         <cq:includeClientLib categories="cdgd-main"/>
     </head>
 
     <body>
+
 
         <div id="container">
             <cq:include script="header.jsp"/>
             <cq:include script="body.jsp"/>
             <cq:include script="footer.jsp"/>
         </div>
+
+
 
     </body>
 
