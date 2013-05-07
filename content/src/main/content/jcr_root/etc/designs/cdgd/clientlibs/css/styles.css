@@ -28,3 +28,39 @@ img {
 	max-width: 1145px;
 	padding: 0 20px;
 }
+
+
+/*
+	header
+*/
+
+#container .header {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#logo {
+	float: left;
+}
+
+#container header nav {
+	float: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#container header nav ul li {
+	float: left;
+	margin-left: 4px;
+	font-size: 11px;
+	line-height: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+#content {
+	height: 496px;
+	border-top: 7px solid #000;
+}

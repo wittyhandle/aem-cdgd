@@ -2,4 +2,6 @@
 <%@page session="false" %>
 
 
-hello body.
+<section id="content">
+    hello body.
+</section>
