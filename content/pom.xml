@@ -46,11 +46,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>com.mike.cq</group>
-                    <filters>
-                        <filter>
-                            <root>/apps/rapha</root>
-                        </filter>
-                    </filters>
+                    <filterSource>src/main/content/META-INF/vault/filter.xml</filterSource>
                     <embeddeds>
                         <embedded>
                             <groupId>${project.groupId}</groupId>
