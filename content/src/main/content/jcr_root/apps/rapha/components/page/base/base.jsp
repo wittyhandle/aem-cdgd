@@ -1,4 +1,5 @@
 <%@include file="/libs/foundation/global.jsp"%>
+<cq:defineObjects/>
 <%@page session="false"
         import="com.day.cq.commons.Doctype"%>
 <%
@@ -18,6 +19,9 @@
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <cq:include script="/libs/wcm/core/components/init/init.jsp"/>
+
         <cq:includeClientLib categories="cq.jquery"/>
         <cq:includeClientLib categories="cdgd-main"/>
     </head>
