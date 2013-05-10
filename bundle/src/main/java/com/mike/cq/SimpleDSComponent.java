@@ -1,5 +1,6 @@
 package com.mike.cq;
 
+import org.apache.felix.scr.annotations.Activate;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Service;
 
@@ -23,6 +24,7 @@ public class SimpleDSComponent implements Runnable {
         logger.info("Running...");
     }
     
+
     protected void activate(ComponentContext ctx) {
         this.bundleContext = ctx.getBundleContext();
     }
