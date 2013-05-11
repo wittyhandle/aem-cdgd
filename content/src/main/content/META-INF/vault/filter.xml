@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/rapha"/>
-    <filter root="/etc/designs/cdgd"/>
+    <filter root="/etc/designs/cdgd">
+        <exclude pattern="/etc/designs/cdgd/jcr:content/base"/>
+    </filter>
 </workspaceFilter>
