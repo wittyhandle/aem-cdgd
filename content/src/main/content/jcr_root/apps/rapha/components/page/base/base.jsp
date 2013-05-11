@@ -1,7 +1,8 @@
 <%@include file="/libs/foundation/global.jsp"%>
 <cq:defineObjects/>
 <%@page session="false"
-        import="com.day.cq.commons.Doctype"%>
+        import="com.day.cq.commons.Doctype"
+        import="com.day.cq.wcm.api.WCMMode"%>
 <%
     if (currentDesign != null) {
         currentDesign.getDoctype(currentStyle).toRequest(request);
@@ -24,6 +25,13 @@
 
         <cq:includeClientLib categories="cq.jquery"/>
         <cq:includeClientLib categories="cdgd-main"/>
+
+        <%
+            if (WCMMode.fromRequest(request) != WCMMode.DISABLED) {
+                %><cq:includeClientLib css="cdgd-edit"/><%
+            }
+        %>
+
     </head>
 
     <body>
