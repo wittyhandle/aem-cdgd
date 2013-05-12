@@ -4,3 +4,4 @@
 *.iws
 *.vlt
 target
+.DS_Store
