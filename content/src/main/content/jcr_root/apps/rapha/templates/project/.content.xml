@@ -7,5 +7,5 @@
     ranking="{Long}100">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="rapha/components/page/base"/>
+        sling:resourceType="rapha/components/page/project"/>
 </jcr:root>
